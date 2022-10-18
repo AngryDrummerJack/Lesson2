@@ -1,0 +1,43 @@
+.main_window {
+    /*background: lightgreen;*/
+    width: 700px;
+    height: 600px;
+   margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Box {
+    width: 250px;
+    height: 180px;
+    margin: 5px;
+    background-color: green;
+    text-align: center;
+    line-height: 150px;
+}
+
+.Box1 {
+    background-color: aquamarine;
+    width: 700px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    line-height: 150px;
+}
+
+#Conteiner {
+    display: flex;
+    /*background-color: coral;*/
+    width: 700px;
+    height: 200px;
+    justify-content: stretch;
+}
+.Box3 {
+    background-color: darkgoldenrod;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    line-height: 150px;
+    margin:5px;
+}
